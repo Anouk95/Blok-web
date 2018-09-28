@@ -1,0 +1,207 @@
+* {
+    box-sizing:border-box
+}
+
+/* Basics */
+
+h1 {
+    color:#00d66c;
+    font-family:Nexa, Verdana; 
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h2 {
+    margin: 0.3em;
+    
+    color:#ff3268;
+    font-family:Nexa, Verdana; 
+    text-align: center;
+}
+
+h3 {
+    color:#ff3268;
+    font-family:Nexa, Verdana; 
+    text-align: center;
+}
+
+
+/* Navigatie */
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: flex-end;  
+}
+
+
+
+li { 
+    width: 20%;
+    margin-top: 0.3em;
+    margin-left: 1.5em;
+    margin-bottom: 0;
+    
+    color: #00d66c;
+    font-family: verdana;
+    font-size: 1.15em;
+    font-weight: bold;
+    list-style: none;
+}
+
+li:hover {
+    color:#2800a0;
+}
+
+li img {
+    max-width:40%;
+    opacity: .3;
+    margin: 0.1em
+}
+
+
+/* Forms */
+
+form {
+    margin-bottom: 4em;
+    
+    color:#ff3268;
+    font-family:Nexa, Verdana; 
+    font-size: 1em;
+    font-weight: bold;
+      
+}
+
+label {
+    margin-left: 5%;
+    
+    color: black;
+    font-family: verdana;
+    font-weight: bold;
+    text-align: center;   
+}
+
+#storys {
+    margin: 1em;
+}
+
+#design {
+    margin: 1em;  
+}
+
+legend {
+    width: 50%;
+    height: 2.5em;
+    border: 2px solid #00d66c;
+    border-radius: 1.25em;
+    margin-top: 2em;
+    margin: 8% 28%;
+    
+    color: white;
+    background-color:#00d66c;
+    text-align: center; 
+}
+
+input{
+    width: 50%;
+    height: 2.5em;
+    margin: 2%;
+    border-radius: 0.9em;
+    border: 2px solid #91A3B7;
+    
+    background-color:white;
+    font-family: verdana;
+    font-size: 1em;
+    text-align: center;    
+}
+
+
+input::placeholder{
+    color:#9B9B9B;
+    opacity:10;   
+}
+
+#uitgelicht img{
+    max-width: 40%;   
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+button{
+    width: 30%;
+    height: 2.5em;
+    border-radius: 1.5em;
+    
+    color: #ffffff;
+    background-color:#ff3268;
+    font-family: verdana;
+    font-size: 1em;
+    text-align: center;        
+}
+
+section#uitgelicht{
+    display:flex;
+    flex-wrap:wrap;
+    padding: 0.2em;
+    /*border:1px solid green;*/    
+}
+
+section#uitgelicht article{
+    width:50%;
+    /*border:1px solid purple;*/ 
+}
+
+section#uitgelicht h2{
+    width:100%;
+    /*border:1px solid red;*/   
+}
+
+section#uitgelicht img {
+    max-width:100%;
+}
+
+fieldset {
+    border:none;
+}
+
+section > button{
+    width: 100%;
+    height: 3em;
+    padding: 0;
+    border-radius: 0;
+    
+    color: #2800a0;
+    background-color:#f3e5d8;
+    font-family: verdana;
+    font-size: 1.5em;
+    font-weight: bold; 
+}
+
+#special {
+    margin-top: 15%;
+}
+
+div {
+    width: 100%;
+    height: 0px;
+    background-image: url(Afbeeldingen/toa-heftiba-703461-unsplash.jpg);  
+}
+
+div img{
+    max-width: 100%; 
+    margin-top: -0.5em;
+}
+
+header img{
+    max-width: 50%;
+    margin-left: 22%;
+    margin-bottom: 2%;
+}
+
+
+
+/* ...... */
